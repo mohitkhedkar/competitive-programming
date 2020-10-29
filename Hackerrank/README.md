@@ -1,4 +1,4 @@
 # Hackerrank
-Hacker rank solved problems
+Hackerrank solved problems
 
- [HackerRank](https://www.hackerrank.com/dashboard)
+ [HackerRank](https://www.hackerrank.com/dashboard).
