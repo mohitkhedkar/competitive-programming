@@ -3,6 +3,7 @@
 
 ![GitHub](https://img.shields.io/github/license/mohitkhedkar/Competitive-programming?style=flat)
 ![GitHub last commit](https://img.shields.io/github/last-commit/mohitkhedkar/Competitive-programming?style=flat)
+![Languages](https://img.shields.io/github/languages/count/mohitkhedkar/Competitive-programming?style=flat-square)
 
 ## Profiles :-
 
