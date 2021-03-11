@@ -4,35 +4,27 @@ using namespace std;
 
 int main() {
 	// your code goes here
+	
+	ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+	
+	
     int t;
     cin>>t;
     
     while(t--){
         
-        ll c,d=0;
+        ll c,d,a,b;
         cin>>c;
         
-        while((pow(2,d))<=c){
-            d++;
-        }
+        d=(log(c)/log(2))+1;
         
-        ll a=0,b=1,xxor;
+        a= (pow(2,d)-1)-pow(2,d-1);
         
-        for(ll i=0;i<=pow(2,d);i++){
-            xxor = a^b;
-            
-            if(xxor > c){
-			    b++;
-    		 	
-    		} else if(xxor == c){
-    			break;
-    		} else {
-    			a++;
-    			b++;
-    		} 
-        }
+        b=a^c;
         
         cout<<a*b<<endl;
+        
     }
 
 	
