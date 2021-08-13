@@ -16,18 +16,13 @@ vector<string> split(const string &);
  */
 
 vector<int> rotateLeft(int d, vector<int> arr) {
-    if(d==0){
-        return arr;
-    } else {
-        int count=0;
-        
-        for(auto i=arr.begin();i<arr.end();i++){
-            
-            arr.push_back(arr[0]);
-            arr.erase(arr.begin());
-            count++;
-        if(count==d) break;
-        }
+    while (d!=0) {
+    int temp = arr[0];
+    for(int i=0;i<arr.size();i++){
+        arr[i]=arr[i+1];
+    }
+    arr[arr.size()-1] = temp;
+    d--;
     }
 
 
