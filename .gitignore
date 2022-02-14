@@ -34,5 +34,5 @@
 #VS Code
 .vscode
 
-**/sample.cpp
-**/sample.exe
+**/cp-template
+
